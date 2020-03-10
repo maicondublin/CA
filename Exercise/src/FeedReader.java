@@ -1,12 +1,13 @@
 
 import java.io.BufferedReader;
+
 import java.io.FileReader;
 import java.io.IOException;
 import ie.cct.objectorientedconstructs.FeedFactoryInterface;
 import ie.cct.objectorientedconstructs.FeedInterface;
 
 // Modify this to match your package
-import ie.cct.objectorientedconstructs.s12345s1234.FeedFactory;
+import ie.cct.objectorientedconstructs.s2017053s2018466.FeedFactory;
 
 public class FeedReader {
 	
@@ -25,7 +26,8 @@ public class FeedReader {
 		System.out.println("=== News items ===");
 		
 		for(String title : feed.listTitles()) {
-			System.out.println(title);
-		}
+			   System.out.println("FeedItem  Title: " + title  + file);
+				  
+		}   
 	}
 }
